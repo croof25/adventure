@@ -24,7 +24,7 @@ private:
     int healingPotency;
 };
 
-class BattleItem : public Item {
-
-};
+//class BattleItem : public Item {
+//public
+//};
 #endif //ADVENTURE_ITEM_H

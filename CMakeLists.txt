@@ -3,4 +3,5 @@ project(adventure)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(adventure main.cpp item.h worldentity.h)
+include_directories(headers)
+add_executable(adventure src/main.cpp headers/item.h headers/worldentity.h)
